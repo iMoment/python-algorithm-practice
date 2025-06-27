@@ -11,11 +11,3 @@ You can assume that the list is non-empty.
 # Expected output(s): largest number from input list
 
 # Write below this line
-def max_value(nums):
-  current_max = float('-inf')
-  
-  for num in nums:
-    if num > current_max:
-      current_max = num
-      
-  return current_max
