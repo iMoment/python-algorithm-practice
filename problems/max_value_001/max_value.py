@@ -8,6 +8,6 @@ You can assume that the list is non-empty.
 
 # Function name: max_value
 # Input(s): list of numbers
-# Expected output(s): largest number from input list
+# Expected output(s): number
 
-# Write below this line
+# Write your code below this line

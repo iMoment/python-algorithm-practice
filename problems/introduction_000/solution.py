@@ -6,6 +6,6 @@ Write a function, greet, that takes in a string argument, s, and returns the str
 # Input(s): s, a string
 # Expected output(s): string
 
-# Write below this line
+# Write your code below this line
 def greet(s):
     return f"hey {s}"

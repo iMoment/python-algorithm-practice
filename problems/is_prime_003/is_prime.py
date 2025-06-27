@@ -12,4 +12,4 @@ You can assume that the input number is a positive integer.
 # Input(s): a number
 # Expected output(s): boolean
 
-# Write below this line
+# Write your code below this line
