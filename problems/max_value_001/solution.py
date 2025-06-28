@@ -24,6 +24,6 @@ def max_value(nums):
 Complexity: 
 n = length of list
 
-Time : O(n)
+Time: O(n)
 Space: O(1)
 """
