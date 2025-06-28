@@ -38,6 +38,6 @@ def char_count(input_string):
 Complexity:
 n = length of string 
 
-Time : O(n)
+Time: O(n)
 Space: O(n)
 """
