@@ -1,5 +1,7 @@
 """
-Write a function, is_prime, that takes in a number as an argument. The function should return a boolean indicating whether or not the given number is prime.
+Write a function, is_prime, that takes in a number as an argument. 
+
+The function should return a boolean indicating whether or not the given number is prime.
 
 A prime number is a number that is only divisible two distinct numbers: 1 and itself.
 

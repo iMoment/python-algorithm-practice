@@ -12,6 +12,6 @@ Each problem is separated into its own folder that includes three files:
 
 ### Problem Types and Categories
 - **000~004:** Introductory Practice
-- **005~008:** Hashing  
+- **005~009:** Hashing  
 
 Although designed to be completed in a linear order, feel free to skip to particular problem types for targeted practice.  
