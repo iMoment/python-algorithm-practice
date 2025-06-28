@@ -10,6 +10,9 @@ You can assume that the sentence is non-empty.
 # Input(s): string
 # Expected output(s): string
 
+# Example test_case:
+# longest_word("what a wonderful world") -> "wonderful"
+
 # Write your code below this line
 def longest_word(sentence):
   words = sentence.split(" ")

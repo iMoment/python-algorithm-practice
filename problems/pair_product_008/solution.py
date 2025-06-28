@@ -12,6 +12,9 @@ There is guaranteed to be one such pair whose product is the target.
 # Input(s): list, int
 # Expected output(s): tuple
 
+# Example test_case:
+# pair_product([3, 2, 5, 4, 1], 8) -> (1, 3)
+
 # Write your code below this line
 def pair_product(numbers, target_product):
   previous_numbers = {}

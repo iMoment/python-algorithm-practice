@@ -4,7 +4,7 @@ A compilation of problems in Python to practice algorithms.
 
 ### How to use
 Each problem is separated into its own folder that includes three files:  
-- <ins>**problem_title.py:**</ins> contains a prompt string describing the problem to be solved. Comments are also given to indicate the ***required*** function name to be implemented, along with information on provided input types and expected output types. Helper functions can be created to assist in solving problems, however, test cases contained in **test.py** will only call the ***required*** function name when evaluating your code. Refer to test cases for expected output types if there is any confusion.  
+- <ins>**problem_title.py:**</ins> contains a prompt string describing the problem to be solved. Comments are given to indicate the ***required*** function name to be implemented, along with information on provided input types and expected output types. The first test case is also shown to further clarify expected outputs. Helper functions can be created to assist in solving problems, however, **test.py** will only call the ***required*** function name when evaluating your code. Refer to test cases inside **test.py** for expected output types if there is any confusion.  
 
 - <ins>**solution.py:**</ins> contains a working solution to the problem if you get stuck or give up, along with Big-O analysis.  
 

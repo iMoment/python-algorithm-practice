@@ -8,4 +8,7 @@ No tricks here. Run the tests to check your work.
 # Input(s): s, a string
 # Expected output(s): string
 
+# Example test_case:
+# greet("Aaron") -> "hey Aaron"
+
 # Write your code below this line

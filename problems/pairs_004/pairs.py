@@ -12,4 +12,12 @@ You can assume that the input list contains unique elements.
 # Input(s): list
 # Expected output(s): list[(tuple)] or list[list[]]
 
+# Example test_case:
+# pairs(["a", "b", "c"]) ->
+# [
+#    ["a", "b"],
+#    ["a", "c"],
+#    ["b", "c"]
+# ]
+
 # Write your code below this line

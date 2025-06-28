@@ -12,6 +12,9 @@ You can assume that the input string is non-empty.
 # Input(s): string
 # Expected output(s): string
 
+# Example test_case:
+# most_frequent_char('bookeeper') -> 'e'
+
 # Write your code below this line
 def most_frequent_char(s):
   freq_dict = char_count(s)

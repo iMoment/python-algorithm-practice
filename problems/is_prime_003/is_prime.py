@@ -14,4 +14,7 @@ You can assume that the input number is a positive integer.
 # Input(s): a number
 # Expected output(s): boolean
 
+# Example test_case:
+# is_prime(2) -> True
+
 # Write your code below this line

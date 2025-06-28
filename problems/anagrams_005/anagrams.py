@@ -10,4 +10,7 @@ Anagrams are strings that contain the same characters, but in any order.
 # Input(s): string, string
 # Expected output(s): boolean
 
+# Example test_case:
+# anagrams('restful', 'fluster') -> True
+
 # Write your code below this line

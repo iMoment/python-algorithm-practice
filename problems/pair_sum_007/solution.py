@@ -12,6 +12,9 @@ There is guaranteed to be one such pair that sums to the target.
 # Input(s): list, int
 # Expected output(s): tuple
 
+# Example test_case:
+# pair_sum([3, 2, 5, 4, 1], 8) -> (0, 2)
+
 # Write your code below this line
 def pair_sum(numbers, target_sum):
   previous_numbers = {}
