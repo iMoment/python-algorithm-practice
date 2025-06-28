@@ -10,6 +10,6 @@ You can assume that the input list contains unique elements.
 
 # Function name: pairs
 # Input(s): list
-# Expected output(s): list
+# Expected output(s): list[(tuple)] or list[list[]]
 
 # Write your code below this line

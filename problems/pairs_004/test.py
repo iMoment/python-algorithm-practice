@@ -49,7 +49,7 @@ def test(input, expected_output):
     result_output = pairs(input)
     print(f"Actual output: {result_output}")
 
-    if result_output == expected_output:
+    if set(map(lambda x: frozenset(x), result_output)) == set(map(lambda x: frozenset(x), expected_output)):
         print("Pass")
         return True
     print("Fail")
