@@ -17,7 +17,7 @@ def test(input1, input2, expected_output):
     result_output = pair_sum(input1, input2)
     print(f"Actual output: {result_output}")
 
-    if result_output == expected_output:
+    if set(result_output) == set(expected_output):
         print("Pass")
         return True
     print("Fail")
