@@ -15,21 +15,21 @@ Anagrams are strings that contain the same characters, but in any order.
 
 # Write your code below this line
 def anagrams(s1, s2):
-  s1_freq_dict = char_count(s1)
-  s2_freq_dict = char_count(s2)
-  
-  return s1_freq_dict == s2_freq_dict
- 
+    s1_freq_dict = char_count(s1)
+    s2_freq_dict = char_count(s2)
+
+    return s1_freq_dict == s2_freq_dict
+
 def char_count(input_string):
-  char_freq_dict = {}
-  
-  for char in input_string:
-    if char not in char_freq_dict:
-      char_freq_dict[char] = 0
-    
-    char_freq_dict[char] += 1
-      
-  return char_freq_dict
+    char_freq_dict = {}
+
+    for char in input_string:
+        if char not in char_freq_dict:
+            char_freq_dict[char] = 0
+
+        char_freq_dict[char] += 1
+
+    return char_freq_dict
 
 """
 Complexity:
@@ -44,7 +44,7 @@ Space: O(n + m)
 from collections import Counter
 
 def anagrams(s1, s2):
-  return Counter(s1) == Counter(s2)
+    return Counter(s1) == Counter(s2)
 
 """
 Complexity:

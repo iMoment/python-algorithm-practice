@@ -15,14 +15,14 @@ You can assume that the sentence is non-empty.
 
 # Write your code below this line
 def longest_word(sentence):
-  words = sentence.split(" ")
-  longest = ""
-  
-  for word in words:
-    if len(word) >= len(longest):
-      longest = word
+    words = sentence.split(" ")
+    longest = ""
 
-  return longest
+    for word in words:
+        if len(word) >= len(longest):
+            longest = word
+
+    return longest
 
 """
 Complexity: 

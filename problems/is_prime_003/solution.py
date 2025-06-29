@@ -19,14 +19,14 @@ You can assume that the input number is a positive integer.
 
 # Write your code below this line
 def is_prime(n):
-  if n < 2:
-    return False
-  
-  for num in range(2, n):
-    if n % num == 0:
-      return False
+    if n < 2:
+        return False
     
-  return True
+    for num in range(2, n):
+        if n % num == 0:
+            return False
+        
+    return True
 
 """
 Complexity:
@@ -40,14 +40,14 @@ Space: O(1)
 from math import sqrt, floor
 
 def is_prime(n):
-  if n < 2:
-    return False
-  
-  for num in range(2, floor(sqrt(n)) + 1):
-    if n % num == 0:
-      return False
+    if n < 2:
+        return False
     
-  return True
+    for num in range(2, floor(sqrt(n)) + 1):
+        if n % num == 0:
+            return False
+        
+    return True
 
 """
 Complexity:

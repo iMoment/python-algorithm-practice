@@ -10,8 +10,8 @@ Each problem is separated into its own folder that includes three files:
 
 - <ins>**test.py:**</ins> contains test cases for use against your solution. Execute this file directly from the working directory after you have completed your implementation in **problem_title.py** to test for correctness.  
 
-### Problem Types and Categories
-- **000~004:** Introductory Practice
-- **005~009:** Hashing  
+All the problems in this repository fall into a particular concept or technique to be practiced. Although designed to be completed in order, feel free to skip to specific problem types for targeted practice. It is highly encouraged that the associated technique is utilized to solve their respective problems. While alternative solutions may exist, these exercises have been grouped together to practice fundamental concepts commonly found in technical interviews.  
 
-Although designed to be completed in a linear order, feel free to skip to particular problem types for targeted practice.  
+### Problem Types and Categories
+- **000~005:** Introductory Practice
+- **006~010:** Hashing

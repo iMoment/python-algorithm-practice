@@ -22,14 +22,14 @@ You can assume that the input list contains unique elements.
 
 # Write your code below this line
 def pairs(elements):
-  pair_list = []
+    pair_list = []
 
-  for i in range(0, len(elements)):
-    for j in range(i + 1, len(elements)):
-      pair = [ elements[i], elements[j] ]
-      pair_list.append(pair)
-    
-  return pair_list
+    for i in range(0, len(elements)):
+        for j in range(i + 1, len(elements)):
+            pair = [ elements[i], elements[j] ]
+            pair_list.append(pair)
+
+    return pair_list
 
 """
 Complexity: 

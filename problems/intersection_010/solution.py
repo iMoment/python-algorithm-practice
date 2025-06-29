@@ -15,14 +15,14 @@ You may assume that each input list does not contain duplicate elements.
 
 # Write your code below this line
 def intersection(a, b):
-  result = []
-  items = set(a)
-    
-  for num in b:
-    if num in items:
-      result.append(num)
-      
-  return result
+    result = []
+    items = set(a)
+
+    for num in b:
+        if num in items:
+            result.append(num)
+
+    return result
 
 """
 Complexity:
@@ -35,18 +35,21 @@ Space: O(n)
 
 # Remark: Above code can be simplified with list comprehension with same time/space complexity
 def intersection(a, b):
-  set_a = set(a)
-  return [ item for item in b if item in set_a ]
+    set_a = set(a)
+    return [ item for item in b if item in set_a ]
+# def intersection(a, b):
+#   set_a = set(a)
+#   return [ item for item in b if item in set_a ]
 
 # Remark: This is a brute-force alternative solution
-def intersection(a, b):
-  result = []
+# def intersection(a, b):
+#   result = []
 
-  for item in b:
-    if item in a:
-      result.append(item)
+#   for item in b:
+#     if item in a:
+#       result.append(item)
 
-  return result
+#   return result
 
 """
 Complexity:

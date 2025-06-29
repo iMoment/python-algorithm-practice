@@ -17,15 +17,15 @@ There is guaranteed to be one such pair that sums to the target.
 
 # Write your code below this line
 def pair_sum(numbers, target_sum):
-  previous_numbers = {}
-  
-  for index, num in enumerate(numbers):
-    complement = target_sum - num
-    
-    if complement in previous_numbers:
-      return (previous_numbers[complement], index)
-    
-    previous_numbers[num] = index
+    previous_numbers = {}
+
+    for index, num in enumerate(numbers):
+        complement = target_sum - num
+
+        if complement in previous_numbers:
+            return (previous_numbers[complement], index)
+        
+        previous_numbers[num] = index
 
 """
 Complexity:
