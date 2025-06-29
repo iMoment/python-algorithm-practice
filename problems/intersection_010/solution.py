@@ -37,19 +37,16 @@ Space: O(n)
 def intersection(a, b):
     set_a = set(a)
     return [ item for item in b if item in set_a ]
-# def intersection(a, b):
-#   set_a = set(a)
-#   return [ item for item in b if item in set_a ]
 
 # Remark: This is a brute-force alternative solution
-# def intersection(a, b):
-#   result = []
+def intersection(a, b):
+    result = []
 
-#   for item in b:
-#     if item in a:
-#       result.append(item)
+    for item in b:
+        if item in a:
+            result.append(item)
 
-#   return result
+    return result
 
 """
 Complexity:

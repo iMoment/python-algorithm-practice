@@ -16,7 +16,7 @@ def test(input1, input2, expected_output):
     result_output = pair_product(input1, input2)
     print(f"Actual output: {result_output}")
 
-    if set(result_output) == set(expected_output):
+    if result_output == expected_output:
         print("Pass")
         return True
     print("Fail")
